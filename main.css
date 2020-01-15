@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+.list-group-item {
+  border: 1px solid gray;
+  background-color: transparent;
+  border-radius: 2px;
+  margin-top: 10px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+.list-group-item:hover {
+  cursor: pointer;
+  background-color: rgb(165, 203, 246);
+}
+
+.list-group {
+  list-style-type: none;
+}
+.container {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 30px;
+}
+.active {
+  background-color: rgb(133, 186, 246);
+}
